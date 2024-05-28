@@ -29,7 +29,7 @@ public class EasycubeTcpTest {
         byte[] response = new byte[2048];
         int bytesRead = inputStream.read(response); // Get Response
 
-        System.out.println("Sended Command ---> " + command ); // Print Sended Command to console
+        System.out.println("Sended Command ---> " + command ); // Print Sent Command to console
         System.out.println("Incoming Response ---> " + new String(response, 0, bytesRead)); // Print Response to console
 
         outputStream.close();
